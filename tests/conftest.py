@@ -10,10 +10,3 @@ def setting_browser():
 
     yield
     browser.quit()
-
-@pytest.fixture()
-def skip():
-    """""
-    TODO: добавить передачу  искомой переменной в вывод
-    """""
-    return pytest.skip("Ошибка, не находит")

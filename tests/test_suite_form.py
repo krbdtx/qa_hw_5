@@ -1,7 +1,7 @@
 from selene import browser,  be, have, by
 import os.path
 
-def test_form_01():
+def test_fill_form():
     """
     Заполнение формы
     Успешно заполнено
